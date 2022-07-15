@@ -62,7 +62,7 @@ class Education extends Component {
                             </div>
                             <button className="remove"
                             onClick={() => this.removeEducation(formation)}>
-                                <img src="../../../public/assets/trash.png" />
+                                <img src="https://cdn-icons-png.flaticon.com/512/3096/3096673.png" />
                             </button>
                         </div>
                     } ) : <h4>No Education added yet</h4>}
@@ -70,7 +70,7 @@ class Education extends Component {
 
                 
                 <button className="btn" onClick={this.setDisplay}>
-                    <img src="../../../public/assets/pen.png" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/84/84380.png" />
                 </button>
 
             </section>

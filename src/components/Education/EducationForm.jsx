@@ -28,11 +28,11 @@ class EducationForm extends Component {
                 onChange={(e) => formations.endedDate = e.target.value}/>
 
                 <button className="btn2">
-                    <img src="../../../public/assets/increment.png" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/983/983901.png" />
                 </button>
 
                 <button className="btn" onClick={() => setDisplay()}>
-                    <img src="../../../public/assets/Close.png" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/6467/6467149.png" />
                 </button>
             </form>
         )

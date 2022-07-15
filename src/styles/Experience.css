@@ -42,6 +42,11 @@
 
     cursor: pointer;
     height: 30px;
+    transition: 400ms;
+}
+
+.remove:hover {
+    background-color: rgb(226, 225, 225);
 }
 
 .remove img {
@@ -58,6 +63,8 @@
     border: none;
     outline: none;
     cursor: pointer;
+
+    
 }
 
 .btn2 img {
@@ -68,5 +75,4 @@
     position: relative;
     height: 150px;
 
-    background-color: rgb(205, 205, 205);
 }
