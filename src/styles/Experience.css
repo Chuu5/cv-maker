@@ -1,0 +1,67 @@
+.experience, .education {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    min-height: 200px;
+
+    height: 100%;
+}
+
+.jobs, .formations {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.job, .formation {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.job-text, .formation-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.remove {
+    background-color: transparent;
+    padding: 2px;
+    
+    border: 1px solid #333;
+    outline: none;
+
+    cursor: pointer;
+    height: 30px;
+}
+
+.remove img {
+    height: 100%;
+}
+
+.btn2 {
+    height: 30px;
+    position: absolute;
+
+    right: 60px;
+    bottom: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn2 img {
+    height: 100%;
+}
+
+.experience-form, .education-form {
+    position: relative;
+    height: 150px;
+
+    background-color: rgb(205, 205, 205);
+}

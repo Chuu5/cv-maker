@@ -1,0 +1,25 @@
+form {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    height: 150px;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    background-color: #999;
+}
+
+form input {
+    padding: 22px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #888;
+}
+
+form input:hover {
+    border: 1px solid #222;
+}
