@@ -10,11 +10,13 @@ form {
     gap: 10px;
     flex-wrap: wrap;
 
-    background-color: #999;
+    background-color: rgb(205, 205, 205);
+
 }
 
 form input {
     padding: 22px;
+    font-size: 16px;
     height: 40px;
     outline: none;
     border: 1px solid #888;
@@ -22,4 +24,17 @@ form input {
 
 form input:hover {
     border: 1px solid #222;
+}
+
+@media (max-width: 760px) {
+    form {
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .experience-form, .education-form {
+        height: 100%;
+        padding-bottom: 50px;
+    }
+
 }
