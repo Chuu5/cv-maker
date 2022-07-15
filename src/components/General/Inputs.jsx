@@ -30,7 +30,7 @@ class Inputs extends Component {
                 onChange={(e) => updatePhone(e.target.value)}/>
 
                 <button className="btn" onClick={() => setDisplay()}>
-                    <img src="../../../public/assets/Close.png" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/983/983901.png" />
                 </button>
             </form>
         )
